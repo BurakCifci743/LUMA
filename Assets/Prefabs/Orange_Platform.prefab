@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 8620472447838711261}
   - component: {fileID: -296030965312451965}
   - component: {fileID: -3646481502917186958}
+  - component: {fileID: 2950957107153482428}
   m_Layer: 3
   m_Name: Orange_Platform
   m_TagString: Untagged
@@ -312,6 +313,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.7623332, y: 0.4352975}
   m_EdgeRadius: 0
+--- !u!114 &2950957107153482428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4196149804612877526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df261f5958740a498ba6102f888ca8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorManager: {fileID: 0}
+  platformColor: 1
 --- !u!1 &5110356667025381015
 GameObject:
   m_ObjectHideFlags: 0

@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 3317388845030491358}
   - component: {fileID: 8614799340383357163}
   - component: {fileID: 4424520269192559352}
+  - component: {fileID: 4379322490885421903}
   m_Layer: 3
   m_Name: Silver_Platform
   m_TagString: Untagged
@@ -486,3 +487,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5687597, y: 0.13570583}
   m_EdgeRadius: 0
+--- !u!114 &4379322490885421903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260030557903751560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df261f5958740a498ba6102f888ca8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorManager: {fileID: 0}
+  platformColor: 2

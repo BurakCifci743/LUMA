@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 6240702036269407855}
   - component: {fileID: 2742779346139131543}
   - component: {fileID: 187842842256812619}
+  - component: {fileID: -2305022953725471183}
   m_Layer: 3
   m_Name: Green_Platform
   m_TagString: Untagged
@@ -312,6 +313,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5943198, y: 0.13815123}
   m_EdgeRadius: 0
+--- !u!114 &-2305022953725471183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729506956077601335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df261f5958740a498ba6102f888ca8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorManager: {fileID: 0}
+  platformColor: 3
 --- !u!1 &8799845407362895620
 GameObject:
   m_ObjectHideFlags: 0
